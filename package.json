@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "probot index.js",
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/probot/atom.git"
+  },
+  "keywords": [
+    "probot",
+    "github"
+  ],
+  "author": "Brandon Keepers",
+  "license": "ISC",
+  "homepage": "https://github.com/probot/atom#readme",
+  "dependencies": {
+    "github-probot": "github:probot/probot#wild-wild-west"
+  },
+  "devDependencies": {
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true
+  }
+}
